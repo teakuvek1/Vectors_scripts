@@ -1,0 +1,12 @@
+# Ignore simulation input / data files for language stats
+*.imd linguist-generated
+*.arg linguist-generated
+*.jobs linguist-generated
+*.top linguist-generated
+*.itp linguist-generated
+*.ndx linguist-generated
+*.gro linguist-generated
+*.pdb linguist-generated
+*.pqr linguist-generated
+*.txt linguist-generated
+files/** linguist-generated
