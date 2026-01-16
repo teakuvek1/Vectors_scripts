@@ -2,7 +2,7 @@
 
 This repository contains all input files for MD simulations, together with scripts for extracting and processing **binding site vectors**.
 
----
+
 
 ## MD simulation files
 
@@ -28,7 +28,6 @@ For each system, three GROMOS topologies are provided:
 
 Equilibration simulations were run using **GROMOS**, and production MD simulations were performed with **GROMACS**.
 
----
 
 ## Binding site vector scripts
 
@@ -63,7 +62,6 @@ All scripts are located in the `scripts/` directory unless stated otherwise.
 - **`combine.py`**  
   Combines normalized vector length and charge data into a single file, providing a complete binding site description.
 
----
 
 ### Trajectory alignment and preprocessing
 
@@ -80,7 +78,7 @@ All scripts are located in the `scripts/` directory unless stated otherwise.
   Executed via:  
   **`run_align_selected_residues.sh`**
 
----
+
 
 ### Clustering scripts
 
